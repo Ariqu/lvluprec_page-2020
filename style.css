@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Heebo', sans-serif;
+}
+#top-cont {
+  margin-top: 0px !important;
+  width: 100%;
+  height: 970px;
+  background-color: black;
+  border-top: 12px solid purple;
+}
+.img {
+  margin-top: 150px;
+  -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 5.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+
+
+}
+#center {
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+}
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.un-title {
+  margin-top: -190px;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+.scrl {
+  letter-spacing: 15px;
+  font-size: 10px;
+  opacity: 0.6;
+}
