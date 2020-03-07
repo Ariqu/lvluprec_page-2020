@@ -1,8 +1,5 @@
-# lvluprec_page-2020
-# Zrób menu
+﻿# lvluprec_page-2020
 # Dodaj coś swojego
-# dodaj jakąś ikonografie
-# Jakieś linki czy coś
 # . . .
 #pzdr
 #potem odeślij na gita
